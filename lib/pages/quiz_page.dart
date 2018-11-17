@@ -23,6 +23,7 @@ class QuizPageState extends State<QuizPage> {
     new Question('You are awesome', true),
     new Question('Canada is a real place', false),
     new Question('yo', true),
+    new Question('select false', true),
     new Question('how r u', false)
   ]);
   String questionText;
